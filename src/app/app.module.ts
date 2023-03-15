@@ -17,6 +17,7 @@ import { EDashboardComponent } from './ecommerce/e-dashboard/e-dashboard.compone
 // chart
 import { NgxChartsModule } from '@swimlane/ngx-charts';
 import { BarComponent } from './charts/bar/bar.component';
+import { CardsComponent } from './charts/cards/cards.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { BarComponent } from './charts/bar/bar.component';
     CrmDashboardComponent,
     EDashboardComponent,
     BarComponent,
+    CardsComponent,
   ],
   imports: [
     BrowserModule,
