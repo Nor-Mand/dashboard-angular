@@ -18,6 +18,8 @@ import { EDashboardComponent } from './ecommerce/e-dashboard/e-dashboard.compone
 import { NgxChartsModule } from '@swimlane/ngx-charts';
 import { BarComponent } from './charts/bar/bar.component';
 import { CardsComponent } from './charts/cards/cards.component';
+import { PieComponent } from './charts/pie/pie.component';
+import { AreaComponent } from './charts/area/area.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +30,8 @@ import { CardsComponent } from './charts/cards/cards.component';
     EDashboardComponent,
     BarComponent,
     CardsComponent,
+    PieComponent,
+    AreaComponent,
   ],
   imports: [
     BrowserModule,

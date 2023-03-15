@@ -1,3 +1,9 @@
 <app-cards [summary]="summary" ></app-cards>
 
-<app-bar [results]="forcast" [name]="name"></app-bar> 
+<div class="container">
+    <app-bar [results]="forecast" [name]="name"></app-bar> 
+    <app-pie [results]="forecast" [name]="name"></app-pie>
+</div>
+<div class="container">
+    <app-area [results]="areaForecast" [name]="name"></app-area>
+</div>

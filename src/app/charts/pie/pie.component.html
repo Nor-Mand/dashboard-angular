@@ -1,0 +1,14 @@
+
+
+<div [className]="'pie-card'">
+    <div [className]="'pie-title'">
+        <h1 >{{name}}</h1>
+    </div>
+    <ngx-charts-pie-chart [view]="view"
+    [scheme]="colorScheme"
+    [results]="results"
+    [legend]="showLegend"
+    [labels]="showLabels"
+    [doughnut]="doughnut"
+    [gradient]="gradient"></ngx-charts-pie-chart>  
+</div>
