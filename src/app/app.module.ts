@@ -20,6 +20,7 @@ import { BarComponent } from './charts/bar/bar.component';
 import { CardsComponent } from './charts/cards/cards.component';
 import { PieComponent } from './charts/pie/pie.component';
 import { AreaComponent } from './charts/area/area.component';
+import { BubbleComponent } from './charts/bubble/bubble.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { AreaComponent } from './charts/area/area.component';
     CardsComponent,
     PieComponent,
     AreaComponent,
+    BubbleComponent,
   ],
   imports: [
     BrowserModule,
