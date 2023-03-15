@@ -1,16 +1,17 @@
-<div [className]="'card-container'">
-    <div [className]="'card'" *ngFor="let data of summary">
-        <div [className]="'card-title'">
-            <h3>{{data.name}}</h3>
-            <h3> {{data.percentage}}</h3>
-        </div>
-        <div [className]="'card-amount'">
-            <h1>${{data.total}}</h1>
-        </div>
-        <div [className]="'card-footer'">
-            <p>view net earnings</p>
-            <mat-icon>{{data.icon}}</mat-icon>
+<div class="row gx-5 justify-content-between">
+    <div [className]="'col-sm-3'" *ngFor="let data of summary">
+        <div [className]="'card'">
+            <div [className]="'card-title'">
+                <h3>{{data.name}}</h3>
+                <h3> {{data.percentage}}</h3>
+            </div>
+            <div [className]="'card-amount'">
+                <h1>${{data.total}}</h1>
+            </div>
+            <div [className]="'card-footer'">
+                <p>view net earnings</p>
+                <mat-icon>{{data.icon}}</mat-icon>
+            </div>
         </div>
     </div>
-    
 </div>

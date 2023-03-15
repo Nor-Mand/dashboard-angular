@@ -57,6 +57,12 @@ export class EDashboardComponent {
           y: 75.4,
           r: 79,
         },
+        {
+          name: '1980',
+          x: '1980',
+          y: 77.4,
+          r: 80,
+        },
       ],
     },
     {

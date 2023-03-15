@@ -1,4 +1,10 @@
-<ngx-charts-bubble-chart
+
+
+<div [className]="'bubble-card'">
+  <div [className]="'bubble-title'">
+      <h1 >{{name}}</h1>
+  </div>
+  <ngx-charts-bubble-chart
   [view]="view"
   [scheme]="colorScheme"
   [results]="results"
@@ -15,4 +21,4 @@
   [minRadius]="minRadius"
   [maxRadius]="maxRadius"
 ></ngx-charts-bubble-chart>
-
+</div>

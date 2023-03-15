@@ -7,8 +7,10 @@ import { Component, Input } from '@angular/core';
 })
 export class BubbleComponent {
   @Input() results;
+  @Input() name;
+
   bubbleData: any[];
-  view: any[] = [700, 400];
+  view: any[];
 
   // options
   showXAxis: boolean = true;

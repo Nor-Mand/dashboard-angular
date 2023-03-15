@@ -1,9 +1,17 @@
-<app-cards [summary]="summary" ></app-cards>
+<div class="row mt-4">
 
-<div class="container">
-    <app-bar [results]="forecast" [name]="name"></app-bar> 
-    <app-pie [results]="forecast" [name]="name"></app-pie>
 </div>
-<div class="container">
-    <app-area [results]="areaForecast" [name]="name"></app-area>
+<app-cards [summary]="summary" ></app-cards>
+<div class="row mt-4">
+    <div class="col-sm-6">
+        <app-bar [results]="forecast" [name]="name"></app-bar> 
+    </div>
+    <div class="col-sm-6">
+        <app-pie [results]="forecast" [name]="name"></app-pie>
+    </div>
+</div>
+<div class="row mt-4">
+    <div class="col-sm-12">
+        <app-area [results]="areaForecast" [name]="name"></app-area>
+    </div>
 </div>

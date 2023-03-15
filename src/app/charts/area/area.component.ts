@@ -10,7 +10,7 @@ export class AreaComponent {
   @Input() name;
 
   multi: any[];
-  view: any[] = [1000, 500];
+  view: any[];
 
   // options
   legend: boolean = true;
